@@ -4,7 +4,7 @@ Nas férias de julho de 2025, eu fiz um CRUD simples, utilizando apenas um arqui
 
 ## ***"O que é um CRUD?"***
 
-- CRUD é uma sigla que significa: Create (Criar), Ler (Read), Update (Atualizar) e Apagar (Delete). São as quatro operações fundamentias de manipulação de dados em sistemas.
+- CRUD é uma sigla que significa: Criar (Create), Ler (Read), Atualizar (Update) e Apagar (Delete). São as quatro operações fundamentias de manipulação de dados em sistemas.
 
 ## 🌐 Tecnologias Utilizadas
 
