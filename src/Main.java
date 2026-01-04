@@ -20,7 +20,7 @@ public class Main {
         System.out.println("=================================");
         b1.verLivrosCadastrados();
         System.out.println("=================================");
-        b1.atualizarLivros(1, "Brás Cubas");
+        b1.adicionarLivro(livro1);
         System.out.println("=================================");
         b1.verLivrosCadastrados();
     }

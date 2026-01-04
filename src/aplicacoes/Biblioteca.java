@@ -45,6 +45,7 @@ public class Biblioteca {
     public void adicionarLivro(Livro livro){
         if (livro == null || livros.contains(livro)) {
             System.out.println("Livro não adicionado!");
+            return;
         }
 
         livros.add(livro);
