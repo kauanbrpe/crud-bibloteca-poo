@@ -68,6 +68,7 @@ public class Biblioteca {
     public void verLivrosCadastrados(){
         if (livros.isEmpty()){
             System.out.println("Você não tem livros cadastrados");
+            return;
         }
 
         System.out.println("Livros cadastrados: ");
@@ -79,9 +80,9 @@ public class Biblioteca {
     }
 
     public void atualizarLivros(int id, String nome){
-
         if (livros.isEmpty()){
             System.out.println("Você não tem livros cadastrados!");
+            return;
         }
 
         System.out.println("Livros cadastrados: ");
