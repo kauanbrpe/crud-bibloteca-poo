@@ -43,7 +43,7 @@ public class Biblioteca {
     }
 
     public void adicionarLivro(Livro livro){
-        if (livro == null || livros.contains(livro)) {
+        if (livros.contains(livro)) {
             System.out.println("Livro não adicionado!");
             return;
         }
@@ -53,10 +53,12 @@ public class Biblioteca {
     }
 
     public void removerLivro(Livro livro){
-        if (livro == null){
-            System.out.println("Você quis remover um livro nulo!");
-        } else if (livros.isEmpty()){
+        if (livros.isEmpty()){
             System.out.println("Você não tem livros cadastrados");
+            return;
+        } else if (!livros.contains(livro)){
+            System.out.println("Esse livro não existe!");
+            return;
         }
 
         livros.remove(livro);

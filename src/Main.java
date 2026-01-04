@@ -21,6 +21,7 @@ public class Main {
         b1.verLivrosCadastrados();
         System.out.println("=================================");
         b1.adicionarLivro(livro1);
+        b1.removerLivro(livro2);
         System.out.println("=================================");
         b1.verLivrosCadastrados();
     }

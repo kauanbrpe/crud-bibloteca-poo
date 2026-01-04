@@ -2,6 +2,10 @@
 
 Nas férias de julho de 2025, eu fiz um CRUD simples, utilizando apenas um arquivo para esse sistema, isso torna o programa desorganizado e a manutenção se torna difícil. Portanto, utilizando os pricípios da Programação Orientada a Objetos, algo que aprendi no 2º período da faculdadade, resolvi revisar esse programa nessas férias de janeiro.
 
+## ***"O que é um CRUD?"***
+
+- CRUD é uma sigla que significa: Create (Criar), Ler (Read), Update (Atualizar) e Apagar (Delete). São as quatro operações fundamentias de manipulação de dados em sistemas.
+
 ## 🌐 Tecnologias Utilizadas
 
 - **Java**
